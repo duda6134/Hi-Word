@@ -1,0 +1,72 @@
+#nav{
+    background-color: orange;
+    font-size: 28px;
+    font-weight: bold;
+    height: 80px; /*modificado devido à resolução*/
+}
+#nav ul{
+    flex-direction: row;
+}
+#nav li{
+    margin: 0px 5px 0px 5px;
+}
+
+#nav a{
+    color: rgb(63, 41, 0);
+}
+#nav a:hover{
+    color: rgb(151, 39, 39);
+}
+
+header#pagina1 a#home, header#pagina2 a#receitas, header#pagina3 a#cadastro{
+    cursor: default;
+    color: #df3603;
+}
+
+.main{
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    width: 100vw;
+    text-align: center;
+    overflow-y: auto;
+    /*ñ consegui o colocar o height 
+    sem interferir na presença do scroll*/    
+}
+.footer{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    background-color: orange;
+    width: 100%;
+    height: 50px; /*modificado devido à resolução*/
+    color: rgb(85, 85, 0);  
+    align-items: center; 
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    margin-right: 15px;
+}
+.titulo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 30px;
+}
+.titulo h1{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 24px;
+}
+body{
+    background-color: olivedrab;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}

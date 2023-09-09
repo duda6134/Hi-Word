@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    margin: 0px 5% 100px 5%;
+    background-color: rgb(255, 245, 214);
+    color: rgb(63, 41, 0);
+    font-family: cursive;
+    font-size: 18px;
+}
+.card-title{
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 5px;
+}
+.card-text p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
